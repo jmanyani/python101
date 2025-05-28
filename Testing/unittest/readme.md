@@ -1,30 +1,30 @@
-#Text Capitalizer - Simple Python Project
- Files
-cap.py
-test_cap.py
+# 📝 Text Capitalizer — Simple Python Project
 
+A beginner-friendly Python project that capitalizes the first letter of each word in a string and tests the function using Python’s built-in `unittest` framework.
 
-#cap.py
+## 📁 Project Structure
 
-Contains the cap_text(text) function that capitalizes the first letter of each word in a string.
+- `cap.py`  
+  Defines the `cap_text()` function to capitalize each word in a given string.
 
-##How it works:
+- `test_cap.py`  
+  Contains unit tests for the `cap_text()` function using `unittest`.
 
--Splits the input string into words.
--Capitalizes the first letter of each word.
--Joins them back into a string.
+## 🚀 How It Works
 
-#test_cap.py
+1. The input string is split into words.
+2. Each word's first character is capitalized.
+3. The words are rejoined into a single string.
+4. The behavior is tested through different test cases.
 
-Unit tests for cap_text() using Python's unittest module.
+## 🧪 Test Cases
 
-##Tests included:
+- Capitalizing a single word.
+- Capitalizing multiple words.
+- Handling words with apostrophes.
 
--Single word ("python" → "Python")
--Multiple words ("monty python" → "Monty Python")
--Words with apostrophes ("monty python's" → "Monty Python's")
+## 📚 Learning Highlights
 
-## 📚 Learning Takeaways
--String Manipulation – Splitting, modifying, and joining strings.
--Unit Testing – Writing and running tests with unittest.
--Function Design – Creating reusable and testable functions.
+- Writing clean, testable Python functions.
+- Performing basic string manipulation.
+- Creating and running unit tests using `unittest`.
